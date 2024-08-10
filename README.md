@@ -3,10 +3,15 @@ Overview
 This Python script creates a graphical user interface (GUI) for visualizing and analyzing revenue operations (RevOps) metrics using the bowtie funnel model. The application allows users to input key metrics that drive Monthly Recurring Revenue (MRR) and visualizes these metrics using bar charts. The interface is built with Tkinter, and the charts are generated using Matplotlib.
 
 Features
+
 Interactive Input Fields: Users can input key metrics related to their sales funnel, such as the number of prospects and various conversion rates.
+
 Real-Time Visualization: As users adjust inputs, the charts and calculated MRR values update in real-time.
+
 Comparison Capability: The tool provides side-by-side comparison of two different sets of metrics, allowing users to visualize differences and understand their impact on MRR.
+
 Detailed Metrics Breakdown: The application calculates and displays the key metrics at each stage of the funnel, providing a detailed breakdown of the entire process.
+
 Installation
 To run this application, you will need to have Python installed along with the following libraries:
 
@@ -33,12 +38,19 @@ Key Concepts
 Conversion Rates (CR): These represent the success rates between different stages of the funnel. For example:
 
 CR1: Conversion rate from Prospects to Marketing Qualified Leads (MQL).
+
 CR2: Conversion rate from MQL to Sales Qualified Leads (SQL).
+
 CR3: Conversion rate during the handoff and show rate process.
+
 CR4: Win rate, representing the success rate in closing deals.
+
 CR5: Churn rate during onboarding, representing customer loss before achieving full product impact.
+
 CR6: Churn rate due to a lack of impact after onboarding.
+
 CR7: Upsell rate during the usage phase over the length of the contract.
+
 Volume Metrics (VM): These are the stages between which the conversion rates are measured. For instance:
 
 VM1: Initial prospect identification.
