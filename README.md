@@ -88,8 +88,8 @@ If you wish to contribute to this project, feel free to fork the repository, mak
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See the LICENSE file for more details.
 
 ## Contact
 
-For any questions or issues, please open an issue on GitHub or contact the repository owner directly.
+For any questions or issues, please open an issue on GitHub or contact me directly.
