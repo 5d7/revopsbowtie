@@ -1,3 +1,32 @@
+# RevOps Bowtie Funnel MRR Pipeline - Tkinter Application
+
+## Overview
+
+This Python script creates a graphical user interface (GUI) for visualizing and analyzing revenue operations (RevOps) metrics using the bowtie funnel model. The application allows users to input key metrics that drive **Monthly Recurring Revenue (MRR)** and visualizes these metrics using bar charts. The interface is built with `Tkinter`, and the charts are generated using `Matplotlib`.
+
+## Features
+
+- **Interactive Input Fields**: Users can input key metrics related to their sales funnel, such as the number of prospects and various conversion rates.
+- **Real-Time Visualization**: As users adjust inputs, the charts and calculated MRR values update in real-time.
+- **Comparison Capability**: The tool provides side-by-side comparison of two different sets of metrics, allowing users to visualize differences and understand their impact on MRR.
+- **Detailed Metrics Breakdown**: The application calculates and displays the key metrics at each stage of the funnel, providing a detailed breakdown of the entire process.
+
+## Installation
+
+To run this application, you will need to have Python installed along with the following libraries:
+
+- `tkinter`
+- `matplotlib`
+- `numpy`
+
+You can install the required Python packages using pip:
+
+```bash
+pip install matplotlib numpy
+
+
+
+
 RevOps Bowtie Funnel MRR Pipeline - Tkinter Application
 Overview
 This Python script creates a graphical user interface (GUI) for visualizing and analyzing revenue operations (RevOps) metrics using the bowtie funnel model. The application allows users to input key metrics that drive Monthly Recurring Revenue (MRR) and visualizes these metrics using bar charts. The interface is built with Tkinter, and the charts are generated using Matplotlib.
