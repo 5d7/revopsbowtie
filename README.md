@@ -1,5 +1,5 @@
 
-# RevOps Bowtie Funnel MRR Pipeline - Tkinter Application
+# RevOps Bowtie Funnel MRR Pipeline - Revenue Operations Python/Tkinter Application Scenario Analysis
 
 ## Overview
 
