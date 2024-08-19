@@ -1,16 +1,57 @@
 
 # RevOps Bowtie Funnel MRR Pipeline - Revenue Operations Python/Tkinter Application Scenario Analysis
 
+# RevOps Bowtie - Revenue Operations Planning Tool
+
 ## Overview
 
-This Python script creates a graphical user interface (GUI) for visualizing and analyzing revenue operations (RevOps) metrics using the bowtie funnel model. The application allows users to input key metrics that drive **Monthly Recurring Revenue (MRR)** and visualizes these metrics using bar charts. The interface is built with `Tkinter`, and the charts are generated using `Matplotlib`.
+This Python script creates an interactive revenue operations planning tool using `tkinter` for the graphical user interface (GUI), `matplotlib` for funnel chart visualizations, and `ttkbootstrap` for enhanced styling. The application is designed to help revenue operations (RevOps) professionals simulate and visualize the impact of various conversion rates and metrics on **Monthly Recurring Revenue (MRR)**. Users can input key metrics, compare scenarios side-by-side, and analyze the effects on the sales funnel and revenue outcomes.
 
 ## Features
 
-- **Interactive Input Fields**: Users can input key metrics related to their sales funnel, such as the number of prospects and various conversion rates.
-- **Real-Time Visualization**: As users adjust inputs, the charts and calculated MRR values update in real-time.
-- **Comparison Capability**: The tool provides side-by-side comparison of two different sets of metrics, allowing users to visualize differences and understand their impact on MRR.
-- **Detailed Metrics Breakdown**: The application calculates and displays the key metrics at each stage of the funnel, providing a detailed breakdown of the entire process.
+- **Interactive Sliders & Inputs**: 
+  - Users can adjust key metrics such as conversion rates (CR1 to CR5), number of prospects, and Average Contract Value (ACV) through intuitive sliders and input fields.
+  - The application provides immediate visual and numerical feedback as these inputs are adjusted.
+
+- **Dual-Scenario Comparison**: 
+  - Compare two different sets of input values side-by-side to evaluate how changes in strategy or performance impact MRR and other funnel metrics.
+
+- **Real-Time Funnel Visualization**:
+  - An animated funnel chart represents the stages of the sales process, from prospects to retained customers, showing both percentages and absolute values at each stage.
+
+- **MRR & Delta Analysis**:
+  - The tool calculates and displays the **MRR** for each scenario and highlights the differences (Δ) between the two, both in absolute numbers and percentages.
+
+- **Tooltips for Enhanced Usability**:
+  - Tooltips are provided for each input field, explaining the significance of each metric, making the tool accessible for both seasoned professionals and newcomers.
+
+## Potential Uses
+
+- **Forecasting**: 
+  - Use the tool to forecast MRR based on different conversion rates and sales metrics, gaining insights into how changes in the sales funnel can affect revenue.
+
+- **Scenario Analysis**: 
+  - Evaluate the effectiveness of different strategies or adjustments in the sales process by comparing two scenarios side-by-side.
+
+- **Reporting**:
+  - Generate visual reports or presentations that clearly demonstrate the impact of specific improvements or setbacks on the sales funnel and revenue.
+
+- **Training**:
+  - Leverage the tool as a training resource to educate team members on the relationship between key metrics and revenue outcomes.
+
+## How It Works
+
+1. **Funnel Chart Visualization**:
+   - The funnel chart is created using `matplotlib`, with polygons representing each stage of the sales funnel. The chart updates dynamically as inputs change.
+
+2. **Real-Time Calculation**:
+   - Inputs are bound to a function that recalculates the funnel metrics and MRR in real-time, providing immediate visual and numerical feedback.
+
+3. **Side-by-Side Comparison**:
+   - The application allows users to compare two different scenarios, with the differences clearly highlighted, helping to identify which metrics have the most significant impact.
+
+4. **Responsive Design**:
+   - The layout adjusts dynamically to fit different screen sizes, ensuring a seamless user experience.
 
 ## Installation
 
